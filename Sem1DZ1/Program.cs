@@ -26,7 +26,7 @@ else if (b2 > a2 && b2 > c2)
 {
     Console.WriteLine("Максимальер число второе");
 }
-else if (a2 == b2&&a2==c2)
+else if (a2 == b2 && a2 == c2)
 {
     Console.WriteLine("Все числа одинаковые");
 }
@@ -38,11 +38,22 @@ else
 Console.Write("Введиет число,для определения четности ");
 string nums = Console.ReadLine() ?? "";
 int num = int.Parse(nums);
-if (num %2 == 0)
+if (num % 2 == 0)
 {
     Console.WriteLine("Ваше число четное");
 }
-else 
+else
 {
     Console.WriteLine("Ваше число не четное");
+}
+// -------------- Задача 8 ------------
+Console.WriteLine("Введите число N ");
+string ns = Console.ReadLine() ?? "";
+int n = int.Parse(ns);
+for (int i = 0; i <= n; i++)
+{
+    if (i % 2 == 0)
+    {
+        Console.Write(i + " ");
+    }
 }
