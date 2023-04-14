@@ -1,9 +1,9 @@
-﻿// Console.Clear();
-// NumFind13();
-// Console.WriteLine();
-// Zadacha2();
-// Console.WriteLine();
-// Zadacha3();
+﻿Console.Clear();
+NumFind13();
+Console.WriteLine();
+Zadacha2();
+Console.WriteLine();
+Zadacha3();
 Console.WriteLine();
 Zadacha4();
 
