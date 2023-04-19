@@ -86,7 +86,7 @@ static void Zadacha021()
 static void Zadacha023()
 	{
 		int num = VvodOld("Введите число N ");
-		Console.Write($"Куб числа {num}");
+		Console.Write($"Куб числа {num} => ");
 		for (int i = 1; i <= num; i++)
 		{
 			int rez = (int)Math.Pow(i, 3);
