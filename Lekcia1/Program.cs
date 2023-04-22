@@ -15,13 +15,13 @@ Console.WriteLine(num2);
 int sum = num1 + num2;
 Console.WriteLine(sum);
 //-----examle 4--------
-double num1 = 12;
-double num2 = 5;
-Console.WriteLine(num1 / num2);
+double num41 = 12;
+double num42 = 5;
+Console.WriteLine(num41 / num42);
 //-----example 5--------
 Console.Write("Как вас зовут? ");
-string username = Console.ReadLine() ?? "";
-if (username.ToLower() == "вася")
+string username5 = Console.ReadLine() ?? "";
+if (username5.ToLower() == "вася")
 {
     Console.WriteLine("Привет Васек!!!!");
 }

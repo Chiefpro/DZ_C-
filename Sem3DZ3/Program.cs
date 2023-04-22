@@ -5,23 +5,23 @@ Zadacha023();
 
 
 
-void Vvod(string message)
-{
-    int A;
-    while (true)
-    {
-        try
-        {
-            Console.Write(message);
-            A = int.Parse(Console.ReadLine() ?? "");
-            break;
-        }
-        catch (Exception exc)
-        {
-            Console.WriteLine($"Не корректно введено число! {exc.Message}");
-        }
-    }
-}
+// void Vvod(string message)
+// {
+//     int A;
+//     while (true)
+//     {
+//         try
+//         {
+//             Console.Write(message);
+//             A = int.Parse(Console.ReadLine() ?? "");
+//             break;
+//         }
+//         catch (Exception exc)
+//         {
+//             Console.WriteLine($"Не корректно введено число! {exc.Message}");
+//         }
+//     }
+// }
 
 static int VvodOld(string message)
 {
