@@ -52,14 +52,6 @@ static int Zadacha36(int[] arr)
     return resalt;
 }
 
-static int Zadacha38(int[] arr)
-{
-    int resalt = 0;
-
-
-
-    return resalt;
-}
 static double Findmin(double[] arr)
 {
     double min = arr[0];
