@@ -1,8 +1,8 @@
-﻿// int longcikl = Vvod("Введи длину массива ", "Не правильно ввел");
-// int[] arr35 = NewArray(longcikl, 0, 500);
-// PrintArray(arr35);
-// int z35 = Zadacha35(arr35);
-// Console.WriteLine($"Колличество совпадений {z35}");
+﻿int longcikl = Vvod("Введи длину массива ", "Не правильно ввел");
+int[] arr35 = NewArray(longcikl, 0, 500);
+PrintArray(arr35);
+int z35 = Zadacha35(arr35);
+Console.WriteLine($"Колличество совпадений {z35}");
 
 int[] arr37 = NewArray(5, 1, 9);
 PrintArray(arr37);

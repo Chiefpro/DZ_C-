@@ -1,14 +1,14 @@
 ﻿Console.Clear();
-// int[] array = Zadacha31(12, -9, 9);
-// int p = Pozitiv(array);
-// int n = Negativ(array);
-// Console.WriteLine();
-// Console.WriteLine($"сумма положительных = {p}, сумма отрицательных = {n}");
-// int[] arr_z31 = Zadacha31(12,-9,9);
-// Zadacha32(arr_z31);
+int[] array = Zadacha31(12, -9, 9);
+int p = Pozitiv(array);
+int n = Negativ(array);
+Console.WriteLine();
+Console.WriteLine($"сумма положительных = {p}, сумма отрицательных = {n}");
+int[] arr_z31 = Zadacha31(12,-9,9);
+Zadacha32(arr_z31);
 int[] arr_z33 = Zadacha31(12, -9, 9);
-int n = Vvod("введи число для нахождения ", "Error");
-Zadacha33(arr_z33, n);
+int z33 = Vvod("введи число для нахождения ", "Error");
+Zadacha33(arr_z33, z33);
 
 
 #region 

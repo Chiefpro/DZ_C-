@@ -1,10 +1,10 @@
 ﻿Console.Clear();
-//int z24 = Vvod("Введите целое число ", "Не корректно введено число!!!");
-//Zadacha24(z24);
-//int z26 = Vvod("введи число ", "Error1");
-//Zadacha26(z26);
-//int z28 = Vvod("vvedi ", "errore");
-//Zadacha28(z28);
+int z24 = Vvod("Введите целое число ", "Не корректно введено число!!!");
+Zadacha24(z24);
+int z26 = Vvod("введи число ", "Error1");
+Zadacha26(z26);
+int z28 = Vvod("vvedi ", "errore");
+Zadacha28(z28);
 Zadacha30();
 
 #region 
