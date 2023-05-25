@@ -33,7 +33,6 @@ PrinArrayDoubleOne(zadacha52Doudle);
 
 
 #region 
-
 static int Vvod(string text, string error)
 {
     while (true)
